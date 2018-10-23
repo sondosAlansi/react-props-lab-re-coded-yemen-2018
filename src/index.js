@@ -12,7 +12,7 @@ const colorsArr=['blue','yellow'];
 ReactDOM.render(
   <Spaceship name="Millennium Falcon"
   speed='150'
-  hasRockets='true'
+  hasRockets=true
   colors={colorsArr}
   />,
   document.getElementById('global')
